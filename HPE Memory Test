@@ -1,0 +1,36 @@
+#     HPE Memory Test
+
+# ###########################################################################
+#    Enabling or disabling Extended Memory Test   #
+
+
+# Use the Extended Memory Test option to configure whether the system validates memory during the memory initialization process. When enabled, and uncorrectable memory errors are detected, the memory is mapped out, and the failed DIMMs are logged to the IML. 
+
+######   Enabling this option might significantly increase boot time. 
+
+
+
+#    Procedure
+
+#        From the System Utilities screen, select System Configuration > BIOS/Platform Configuration (RBSU) > System Options > Boot Time Optimizations > Extended Memory Test.
+#        Select a setting.
+
+#            Enabled
+#    
+#            Disabled
+#        Save your setting.
+###############################################################################
+
+
+#    Below is the way to enable embedded diagnostics for HP DL360 Gen10 servers.
+
+
+#    Log into iLO and set the option to Production in Security > Encryption > Security Settings (changed the value from “High Security” to “Production”)
+
+#    This enables Embedded diagnostics in
+
+#    System Utilities [F9]  > Embedded Applications > Embedded Diagnostics
+
+#    Hope that helps!
+
+
